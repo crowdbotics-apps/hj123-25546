@@ -28,7 +28,7 @@ export class Blank extends React.Component {
   }
   render = () => (
     <View>
-      <Text>Sample text content</Text>
+      <Text>Hello</Text>
     </View>
   )
 }
@@ -38,7 +38,9 @@ const styles = StyleSheet.create({ View_1: {}, Text_3: {} })
 const mapStateToProps = state => {
   return {}
 }
+
 const mapDispatchToProps = () => {
   return {}
 }
+
 export default connect(mapStateToProps, mapDispatchToProps)(Blank)
